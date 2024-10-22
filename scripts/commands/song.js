@@ -61,7 +61,7 @@ module.exports = {
   name: "song", 
   version: "1.0.0", 
   permission: 0,
-  credits: "Ar Yan",
+  credits: "Nayan",
   description: "example",
   prefix: true,
   category: "Media", 
