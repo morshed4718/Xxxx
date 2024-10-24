@@ -53,7 +53,7 @@ module.exports.run = async function({ api, event, Users }) {
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি ArYan তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি ツ𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮࿐ তোমাদের মাঝে💋🥵💦!কেউ ৬তানি করবি নাহ!💋😾 যেকোন অভিযোগ বা হেল্প এর জন্য আমার বস 𝐌𝐨𝐫𝐬𝐡𝐞𝐝 কে নক করতে পারোন😊🌷!👉 FB LINK: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -63,11 +63,11 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝖠  𝖱 𝖸 𝖠 𝖭 
+DEVELOPER : 𝐌𝐨𝐫𝐬𝐡𝐞𝐝 
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/aryan.com404
+https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
 
 🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
