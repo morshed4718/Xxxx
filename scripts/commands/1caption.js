@@ -53,9 +53,8 @@ const fs = global.nodemodule["fs-extra"];
 ;
  var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-"https://i.imgur.com/XlbyPQu.png",
-"https://i.imgur.com/XlbyPQu.png",
-"https://i.imgur.com/XlbyPQu.png"
+"https://i.imgur.com/XPebNgz.jpeg",
+"https://i.imgur.com/xSmAANY.jpeg",
 ];
 
 var callback = () => api.sendMessage({body:`✢━━━🄲🄰🄿🅃🄸🄾🄽━━━✢\n\n ${know}\n\n ✢━━ᴍᴏʀsʜᴇᴅ ᴄᴀᴘᴛɪᴏɴ━━✢`,attachment: fs.createReadStream(__dirname + "/cache55.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache55.jpg"));	
